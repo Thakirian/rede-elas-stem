@@ -22,7 +22,7 @@ Este documento detalha as funcionalidades essenciais e as especificações técn
 | **RF14** | Fórum de Acolhimento com Toggle de Anonimato | Usuária | Essencial |
 | **RF15** | Dashboard de Métricas de Impacto (Total de Usuárias/Mentorias) | Admin | Média |
 | **RF16** | Gestão de Conteúdo (CRUD de Role Models e Eventos) | Admin | Alta |
-| **RF17** | Moderação Ativa e Exclusão de Postagens Inadequadas | Admin | Essencial |
+| **RF17** | Sistema de Moderação (Denúncia por Usuárias e Exclusão por Admin) | Ambas | Essencial |
 
 ## 2. Detalhamento Técnico (Especificação)
 
@@ -31,6 +31,6 @@ Este documento detalha as funcionalidades essenciais e as especificações técn
 * **Módulo Inspiram (RF06, RF07 & RF16):** As Role Models são exibidas em uma galeria visual. O detalhamento inclui links externos (LinkedIn) e badges de conquista. A Administradora é responsável pela manutenção deste conteúdo.
 * **Módulo Conexões (RF08, RF09, RF10 & RF11):** O motor de busca filtra mentoras por strings de disciplinas técnicas. A solicitação cria um registro de pendência. O chat só é instanciado no sistema após a confirmação positiva da mentora.
 * **Módulo Comunidade (RF12, RF13 & RF16):** Centraliza avisos institucionais e estudantis. O salvamento na agenda pessoal cria um filtro de exibição para "Meus Eventos".
-* **Módulo Acolhimento (RF14 & RF17):** Fórum baseado em categorias de suporte psicossocial. O anonimato é garantido por um interruptor que desvincula o ID da usuária da exibição pública do post. A Admin possui permissão de remoção definitiva para garantir a segurança do ambiente.
+* **Módulo Acolhimento (RF14 & RF17):** Fórum baseado em categorias de suporte psicossocial. O anonimato é garantido por um interruptor que desvincula o ID da usuária da exibição pública do post. A comunidade auxilia via modal de denúncias, e a Admin possui permissão de remoção definitiva para garantir a segurança do ambiente.
 
 > **Nota Metodológica:** Para fins do protótipo de média-fidelidade (MFi), as funcionalidades que exigem persistência em banco de dados serão simuladas através da técnica Mágico de Oz.
