@@ -108,7 +108,7 @@
 ### TAREFA 10 · Perfil, Histórico e Logout (Gestão | 5 min)
 **Contexto:** Exploração não-guiada de métricas e encerramento da sessão simulada.
 **Roteiro:** *"Acesse seu perfil e me explique o que vê nele. (Aguarda). Como isso é um protótipo, tudo vai zerar. Encontre a opção de sair da conta."*
-**Caminho:** `Avatar LR` → `Meu Perfil` → `Minha Atividade (Abas)` → `Configurações` → `Sair da Conta` ✅
+**Caminho:** `Avatar LR` → `Meu Perfil` → `Minha Atividade (Abas)` → `Sair da Conta` ✅
 
 | Critério de Sucesso | O que Observar e Anotar |
 | :--- | :--- |
