@@ -7,6 +7,7 @@ Este diretório contém os artefatos visuais que compõem o ecossistema da Rede 
 - **`branding/`**: Contém as logos oficiais em alta resolução (`logo_horizontal.png`, `logo_simbolo.png`), o guia de estilos detalhado (`style_guide.md`) e a prancha completa do Design System exportada do Figma (`figma_style_guide.png`).
 - **`wireframes/`**: Esboços de baixa fidelidade realizados no Whimsical, mapeando a arquitetura de informação e a hierarquia das telas do sistema.
 - **`assets/telas_estaticas/`**: Exportações em alta resolução de todas as telas finais (Alta Fidelidade), organizadas por módulo.
+- **`usability_tests/`**: Documentação metodológica, roteiros e arquitetura interativa para os testes de usabilidade (Thinking Aloud).
 
 ## 🌈 Identidade Visual e Design System
 
@@ -53,4 +54,12 @@ O protótipo final consolida o Design System e os fluxos mapeados nos wireframes
 ![Telas de Gestão](./assets/telas_estaticas/Admin%20(Telas%2034-).png)
 
 ---
-🚀 **Status Atual:** Com as telas estáticas finalizadas, o desenvolvimento foca agora na engenharia de navegação (criação dos fluxos interativos isolados) e na estruturação dos protocolos éticos e roteiros para os **Testes de Usabilidade (Thinking Aloud)**.
+
+## 🧪 Testes de Usabilidade e Protótipos Interativos
+
+A evolução do protótipo estático para fluxos navegáveis isolados e toda a estruturação metodológica dos testes (Thinking Aloud, SUS, TCLE) estão documentadas na pasta dedicada a testes.
+
+🔗 **[Acesse o diretório de Testes de Usabilidade](./usability_tests/)**
+
+---
+🚀 **Status Atual:** Protótipos interativos concluídos e protocolos éticos definidos. O foco atual é a consolidação do super roteiro de Teste da Mentoranda (Luana) e a preparação para a execução prática.
