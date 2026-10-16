@@ -23,7 +23,7 @@ Os wireframes documentam a base lógica e o Fluxo de Navegação antes da aplica
 
 O protótipo final consolida o Design System e os fluxos mapeados nos wireframes em interfaces prontas para o usuário final. 
 
-🔗 **[Clique aqui para acessar a página "Protótipo" no Figma com todas as telas em alta resolução e inspecionar os elementos](COLE_O_SEU_LINK_DO_FIGMA_AQUI)**
+🔗 **[Clique aqui para acessar a página "Protótipo" no Figma com todas as telas em alta resolução e inspecionar os elementos](https://www.figma.com/design/IBF5mcVO4WS8dtXOJHtSn4/TCC---Projeto-REDE-DELAS?node-id=11-3&t=KPHaxbvljg78BSk0-1)**
 
 ### 1. Core (Cadastro e Login)
 ![Telas do fluxo Core](./assets/telas_estaticas/Core%20(Telas%2000-05).png)
