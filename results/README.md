@@ -7,11 +7,12 @@ Este diretório reúne os dados anonimizados, as figuras e os scripts da avalia�
 ```text
 results/
 ├── data/
+│   ├── planilha_sus.csv
 │   └── Planilhas_Avaliacao_RedeDelas.xlsx
 ├── figures/
 │   ├── grafico_sus_individual.png
 │   ├── grafico_sus_itens_barras.png
-│   ├── grafico_sus_radar.png
+│   ├── grafico_sus_radar.png        (alternativa à figura de barras)
 │   ├── diagrama_afinidades.png
 │   ├── jornada_mentoranda.png
 │   ├── jornada_mentora.png
