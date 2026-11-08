@@ -1,53 +1,55 @@
 # 👥 Histórias de Usuário (User Stories) - Rede Delas
 
-Este documento detalha as necessidades das usuárias e os critérios de aceite para a validação do protótipo Rede Delas, servindo como guia para o design de interação no Figma.
+Este documento detalha as necessidades das usuárias e os critérios de aceite que orientaram o desenho das telas do protótipo Rede Delas. A coluna RF relaciona cada história ao requisito funcional correspondente (RF.md).
 
 ## 1. Infraestrutura e Acesso (Core)
 
-| ID | Persona | História de Usuário (User Story) | Critério de Aceite |
-| :--- | :--- | :--- | :--- |
-| **US01** | Visitante | Como estudante da UTFPR, desejo me cadastrar no app usando meu e-mail institucional, para garantir que a rede seja exclusiva para a comunidade acadêmica. | Validação estrita do domínio `@alunos.utfpr.edu.br` no formulário de cadastro. |
-| **US02** | Usuária | Como usuária cadastrada, desejo realizar login com senha ou recuperar meu acesso via e-mail, para proteger meus dados e conexões. | Tela de login funcional e fluxo de "Esqueci minha senha" com feedback de envio. |
-| **US03** | Usuária | Como usuária, desejo configurar meu perfil (foto, curso, período e bio), para que outras alunas me identifiquem corretamente na rede. | Interface de edição de perfil com campos obrigatórios e upload de avatar. |
-| **US04** | Veterana | Como aluna avançada, desejo sinalizar minha disponibilidade como mentora, para que calouras possam me encontrar para tirar dúvidas. | Chave (Toggle) "Disponível para Mentoria" visível no perfil. |
+| ID | Persona | História de Usuário | Critério de Aceite | RF |
+| :--- | :--- | :--- | :--- | :--- |
+| **US01** | Visitante | Como estudante da UTFPR, desejo me cadastrar no app usando meu e-mail institucional, para garantir que a rede seja exclusiva para a comunidade acadêmica. | Validação do domínio `@alunos.utfpr.edu.br` no formulário de cadastro. | RF01 |
+| **US02** | Usuária | Como usuária cadastrada, desejo realizar login com senha ou recuperar meu acesso via e-mail, para proteger meus dados e conexões. | Tela de login e fluxo "Esqueci minha senha" com feedback de envio. | RF02 |
+| **US03** | Usuária | Como usuária, desejo configurar meu perfil (foto, curso, período, interesses e biografia), para que outras alunas me identifiquem na rede. | Cadastro em duas etapas e edição de perfil, com campo para adicionar foto. | RF03 |
+| **US04** | Usuária | Como aluna avançada, desejo sinalizar minha disponibilidade como mentora, para que calouras possam me encontrar para tirar dúvidas. | Chave "Desejo ser mentora" no cadastro e na edição do perfil. | RF04 |
+| **US19** | Usuária | Como usuária, desejo ver ao abrir o app um resumo com a inspiradora do dia, a mentoria, os eventos e o fórum, para facilitar minha navegação. | Tela inicial com destaques e acesso aos quatro módulos. | RF05 |
 
 ## 2. Módulo: Elas Inspiram (Role Models)
 
-| ID | Persona | História de Usuário | Critério de Aceite |
-| :--- | :--- | :--- | :--- |
-| **US05** | Estudante | Como usuária, desejo navegar por uma galeria de perfis inspiradores, para conhecer a trajetória de mulheres de sucesso em STEM. | Lista em grid com foto, nome, cargo e área de atuação. |
-| **US06** | Estudante | Como usuária, desejo salvar perfis inspiradores como "favoritos", para acessá-los rapidamente em momentos de desmotivação. | Ícone de estrela que move o perfil para uma aba específica de "Favoritas". |
+| ID | Persona | História de Usuário | Critério de Aceite | RF |
+| :--- | :--- | :--- | :--- | :--- |
+| **US05** | Usuária | Como usuária, desejo navegar por uma galeria de perfis inspiradores, para conhecer a trajetória de mulheres de sucesso em STEM. | Grade com foto, nome, área e categoria, com busca e filtros. | RF06 |
+| **US06** | Usuária | Como usuária, desejo salvar perfis inspiradores como favoritos, para acessá-los rapidamente em momentos de desmotivação. | Ícone de estrela que adiciona ou remove o perfil da aba "Favoritas". | RF07 |
 
-## 3. Módulo: Conexões (Mentoria Peer-to-Peer)
+## 3. Módulo: Conexões (Mentoria entre pares)
 
-| ID | Persona | História de Usuário | Critério de Aceite |
-| :--- | :--- | :--- | :--- |
-| **US07** | Caloura | Como aluna, desejo filtrar mentoras por disciplinas específicas (ex: Cálculo I), para encontrar ajuda técnica pontual. | Campo de busca funcional que filtra a lista de veteranas por "tags" de competência. |
-| **US08** | Caloura | Como aluna, desejo enviar uma solicitação de mentoria descrevendo minha dúvida, para iniciar um canal de conversa com uma veterana. | Botão "Solicitar Ajuda" que abre um modal para entrada de texto de dúvida inicial. |
-| **US09** | Mentora | Como mentora, desejo visualizar os detalhes da dúvida e o perfil da solicitante antes de aceitar, para gerenciar minha capacidade de apoio. | Painel de "Pedidos Pendentes" exibindo a mensagem enviada pela aluna. |
-| **US10** | Usuária | Como usuária, desejo avaliar a experiência de mentoria ao final do ciclo, para contribuir com a melhoria da rede. | Modal de finalização com escala de 5 estrelas e campo de comentário. |
+| ID | Persona | História de Usuário | Critério de Aceite | RF |
+| :--- | :--- | :--- | :--- | :--- |
+| **US07** | Mentoranda | Como aluna, desejo filtrar mentoras por disciplinas específicas (ex.: Cálculo I), para encontrar ajuda técnica pontual. | Campo de busca e filtros por disciplina na lista de mentoras. | RF08 |
+| **US08** | Mentoranda | Como aluna, desejo enviar uma solicitação de mentoria descrevendo minha dúvida e acompanhar o pedido, para iniciar uma conversa com uma veterana. | Botão "Solicitar Mentoria" que abre um modal de mensagem; pedido acompanhado por status e passível de cancelamento. | RF09 |
+| **US09** | Mentora | Como mentora, desejo visualizar a dúvida e o perfil da solicitante antes de aceitar ou recusar, e encerrar a mentoria quando concluída, para gerenciar minha disponibilidade. | Painel "Minhas Mentorias" (pendentes, em andamento e concluídas), com recusa confirmada e opção de finalizar. | RF10 |
+| **US10** | Mentoranda | Como mentoranda, desejo avaliar a experiência de mentoria ao finalizá-la, para contribuir com a melhoria da rede. | Modal de finalização com escala de 5 estrelas e campo de comentário. | RF10 |
 
 ## 4. Módulo: Comunidade (Agenda Acadêmica)
 
-| ID | Persona | História de Usuário | Critério de Aceite |
-| :--- | :--- | :--- | :--- |
-| **US11** | Usuária | Como usuária, desejo visualizar uma agenda centralizada de eventos (palestras, workshops), para me manter engajada com a vida acadêmica. | Lista cronológica com data, local e informações do organizador (CAs, DAs, MD). |
-| **US12** | Usuária | Como usuária, desejo salvar um evento no meu calendário pessoal do app, para receber lembretes e não esquecer compromissos. | Botão "Salvar na Agenda" que gera uma marcação visual de "Lembrete Ativo". |
+| ID | Persona | História de Usuário | Critério de Aceite | RF |
+| :--- | :--- | :--- | :--- | :--- |
+| **US11** | Usuária | Como usuária, desejo visualizar uma agenda centralizada de eventos (palestras, workshops), para me manter engajada com a vida acadêmica. | Lista cronológica com data, local e organizador; a descrição informa como se inscrever. | RF12 |
+| **US12** | Usuária | Como usuária, desejo salvar e remover eventos da minha agenda no app, para não esquecer compromissos. | Botão "Salvar" no evento e aba "Salvos" com opção de remover. | RF12 |
 
 ## 5. Módulo: Acolhimento (Segurança Psicológica)
 
-| ID | Persona | História de Usuário | Critério de Aceite |
-| :--- | :--- | :--- | :--- |
-| **US13** | Usuária | Como usuária, desejo postar relatos ou dúvidas no fórum de forma anônima, para compartilhar vulnerabilidades sem medo de julgamento. | Componente Toggle Switch que substitui nome e foto por um avatar genérico. |
-| **US14** | Usuária | Como usuária, desejo denunciar postagens inadequadas, para ajudar a manter o ambiente seguro e colaborativo. | Modal com opções de múltipla escolha (Radio Buttons) para selecionar o motivo da denúncia. |
+| ID | Persona | História de Usuário | Critério de Aceite | RF |
+| :--- | :--- | :--- | :--- | :--- |
+| **US13** | Usuária | Como usuária, desejo postar relatos ou dúvidas no fórum de forma anônima, para compartilhar vulnerabilidades sem medo de julgamento. | Chave "Postar como anônima" que substitui nome e foto por um avatar genérico antes de publicar. | RF13 |
+| **US14** | Usuária | Como usuária, desejo denunciar postagens inadequadas, para ajudar a manter o ambiente seguro e colaborativo. | Modal com motivos de seleção única para a denúncia. | RF16 |
 
 ## 6. Módulo: Administrativo (Gestão Meninas Digitais)
 
-| ID | Persona | História de Usuário | Critério de Aceite |
-| :--- | :--- | :--- | :--- |
-| **US15** | Admin | Como gestora, desejo cadastrar novas Role Models e professoras, para manter a galeria de inspiração sempre atualizada. | Formulário de CRUD exclusivo com campos para biografia e LinkedIn. |
-| **US16** | Admin | Como gestora, desejo publicar editais e eventos de interesse da comunidade, para centralizar as informações para as alunas em STEM. | Dashboard administrativo com botão (+) "Novo Evento". |
-| **US17** | Admin | Como moderadora, desejo remover postagens inadequadas do fórum, para manter o ambiente de acolhimento ético e saudável. | Ícone de lixeira visível apenas para Admin com modal de justificativa de exclusão. |
-| **US18** | Admin | Como gestora, desejo visualizar o número total de mentorias e usuárias, para reportar o impacto social do projeto à UTFPR. | Dashboard de métricas com contadores numéricos na tela inicial administrativa. |
+| ID | Persona | História de Usuário | Critério de Aceite | RF |
+| :--- | :--- | :--- | :--- | :--- |
+| **US15** | Admin | Como gestora, desejo cadastrar e manter perfis inspiradores, para manter a galeria atualizada. | Formulário com biografia, área, conquistas e link; opção de publicar agora ou salvar como inativo. | RF15 |
+| **US16** | Admin | Como gestora, desejo publicar eventos de interesse da comunidade, para centralizar as informações para as alunas em STEM. | Agenda administrativa com botão (+) "Criar evento", edição e rascunho. | RF15 |
+| **US17** | Admin | Como moderadora, desejo avaliar as denúncias e remover postagens inadequadas, para manter o ambiente de acolhimento seguro. | Painel de denúncias com detalhes do post, ações "Ignorar" e "Excluir" e confirmação da exclusão. | RF16 |
+| **US18** | Admin | Como gestora, desejo visualizar o número total de usuárias e de mentorias, para reportar o impacto do projeto. | Dashboard com métricas na tela inicial administrativa. | RF14 |
+| **US20** | Admin | Como gestora, desejo consultar o histórico de conduta de uma usuária e enviar aviso ou suspender seu acesso, para zelar pela convivência na comunidade. | Detalhes da usuária com atividade e conduta; ações "Enviar aviso" e "Suspender acesso", ambas com confirmação. | RF17 |
 
-> **Nota de Validação:** Todas as histórias acima serão testadas no protótipo de média-fidelidade utilizando a técnica Mágico de Oz para simular o comportamento do sistema.
+> **Nota de Validação:** as histórias foram testadas no protótipo interativo de alta fidelidade com fluxo guiado (ver `results/`). Na proposta, previa-se um protótipo de média fidelidade com a técnica Mágico de Oz.

@@ -18,8 +18,8 @@
 > Lembrando que é um **Protótipo Visual**, sem banco de dados. Você não precisará digitar nada. O foco é testar a usabilidade e suas tomadas de decisão."
 
 ### 4. Aquecimento (2 min)
+*(Previsto no roteiro; não aplicado nas sessões, pois as participantes compreenderam a técnica na explicação inicial.)*
 > "Só para a gente treinar o 'pensar alto', pega o seu celular, abre algum aplicativo que você usa muito, escolhe um objetivo rápido e vai me contando o que você está fazendo e pensando até chegar lá."
-*(Aguarde o exercício)*
 
 ---
 
@@ -37,7 +37,7 @@
 > "Agora, há um perfil que precisa ser removido permanentemente, que é o da Camila Santos. Encontre o perfil e exclua-o."
 
 **TAREFA 4 · Eventos (Salvar Rascunho)**
-> "O projeto está planejando uma nova roda de conversa sobre saúde mental, mas a data ainda não está confirmada. Cadastre esse evento no sistema como *rascunho* — ou seja, sem publicar para as alunas ainda."
+> "O projeto está planejando uma nova roda de conversa sobre saúde mental, mas a data ainda não está confirmada. Cadastre esse evento no sistema como rascunho — ou seja, sem publicar para as alunas ainda."
 
 **TAREFA 5 · Moderação Ética**
 > "No painel de moderação, há dois posts que foram denunciados pelas alunas. Avalie cada um com atenção e tome as decisões necessárias. Comece pelo da Tamires, que aguarda há mais tempo."
@@ -45,9 +45,9 @@
 > "Ainda há outro post aguardando sua avaliação, o da Usuária Anônima. Verifique-o e tome a decisão."
 
 **TAREFA 6 · Gestão de Usuárias (Aviso e Suspensão)**
-> "Na gestão de usuárias, a Thamires teve um comportamento inadequado pela primeira vez. Envie um aviso educativo para o perfil dela."
+> "Na gestão de usuárias, a Tamires teve um comportamento inadequado pela primeira vez. Envie um aviso educativo para o perfil dela."
 *(Aguarde ela enviar o aviso)*
-> "Agora vamos suspender o acesso da Beatriz Lopes, que possui um histórico grave. Encontre o perfil e tome a decisão."
+> "Agora vamos suspender o acesso da Bárbara Lopes, que possui um histórico grave. Encontre o perfil e tome a decisão."
 
 **TAREFA 7 · Dashboard e Logout**
 > "Perfeito, você resolveu todas as pendências de hoje! Para finalizar o seu turno, retorne ao painel geral do início (Dashboard) e encerre a sua sessão no sistema de forma segura."

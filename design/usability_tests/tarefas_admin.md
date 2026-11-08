@@ -1,95 +1,97 @@
 # 📱 Documentação de Teste de Usabilidade 03 — Fluxo Admin (Gestão)
 
-**Métricas Globais:** Duração ~38 min | Google Meet (Gravação Tela/Voz)
-**Foco Metodológico:** Gestão de conteúdo, moderação, governança e tomada de decisão crítica.
+**Métricas globais:** duração prevista ~38 min | Google Meet (gravação de tela e voz)
+**Foco metodológico:** gestão de conteúdo, moderação, governança e tomada de decisão crítica.
+**Convenção:** as telas são identificadas pelo nome.
 
 ---
 
-### TAREFA 1 · Login e Acesso ao Painel Admin (Core | 2 min)
-**Contexto:** O login possui botão e transição específicos ("Acessar Painel" + Dissolve) para diferenciar do ambiente das alunas. Cai direto no Dashboard.
-**Roteiro:** *"Você é a gestora do Meninas Digitais e precisa acessar o painel de administração do Rede Delas. Os dados de acesso já estão preenchidos. Entre no painel."*
-**Caminho:** `Tela 01 Login (versão Admin)` → `Campos pré-preenchidos` → `Acessar Painel` → `Tela 34 Dashboard Admin` ✅
+### TAREFA 1 · Login e acesso ao painel (Core | 2 min)
+**Contexto:** o login do painel tem botão e transição específicos ("Acessar Painel" e dissolve) para diferenciar do ambiente das alunas, e leva direto ao Dashboard.
+**Roteiro:** *"Você precisa acessar o painel de administração do Rede Delas. Os dados de acesso já estão preenchidos. Entre no painel."*
+**Caminho:** `Login (versão Admin)` → `Campos preenchidos` → `Acessar painel` → `Dashboard` ✅
 
-| Critério de Sucesso | O que Observar e Anotar |
+| Critério de sucesso | O que observar e anotar |
 | :--- | :--- |
-| **✅ Concluída:** Acessou o Dashboard sem ajuda.<br>**⚠️ Parcial:** Hesitou no botão ou tentou fluxo de aluna.<br>**❌ Falhou:** Não conseguiu acessar. | - [ ] Comentou sobre as cores ou visual do painel?<br>- [ ] Tempo até o Dashboard: ___ segundos |
-> *Nota: A diferença visual previne erros. Comentários sobre isso validam o design.*
+| **✅ Concluída:** acessou o Dashboard sem ajuda.<br>**⚠️ Parcial:** hesitou no botão ou tentou o fluxo de aluna.<br>**❌ Falhou:** não conseguiu acessar. | - [ ] Comentou as cores ou o visual do painel?<br>- [ ] Tempo até o Dashboard: ___ s |
+
+> *Nota: a diferença visual busca prevenir erros; comentários sobre ela são relevantes.*
 
 ---
 
-### TAREFA 2 · Dashboard — Leitura e Navegação (Dashboard | 2 min)
-**Contexto:** Tarefa de observação pura (IHC). Avaliar se a admin compreende os KPIs e alertas de gestão (Lei de Miller).
-**Roteiro:** *"Não precisa clicar em nada ainda. Olhe com atenção para essa tela e me diga em voz alta: o que essas informações estão te dizendo? O que está chamando sua atenção?"*
-**Caminho:** `Tela 34 Dashboard` → Scroll vertical → Observa KPIs e Ações Pendentes ✅
+### TAREFA 2 · Dashboard: leitura e interpretação (Dashboard | 2 min)
+**Contexto:** observação pura. Avaliar se a gestora compreende as métricas e os alertas.
+**Roteiro:** *"Não precisa clicar em nada ainda. Olhe com atenção para essa tela e me diga: o que essas informações estão te dizendo? O que chama sua atenção?"*
+**Caminho:** `Dashboard` → rolagem vertical → leitura das métricas e das ações pendentes ✅
 
-| Critério de Sucesso | O que Observar e Anotar |
+| Critério de sucesso | O que observar e anotar |
 | :--- | :--- |
-| **✅ Concluída:** Verbalizou métricas e pendências.<br>**⚠️ Parcial:** Citou só métricas ou só pendências.<br>**❌ Falhou:** Não inferiu informações úteis. | - [ ] Mencionou os KPIs espontaneamente?<br>- [ ] Identificou os alertas de pendência?<br>- [ ] Ordem de menção: 1º _____ 2º _____ 3º _____ |
+| **✅ Concluída:** verbalizou métricas e pendências.<br>**⚠️ Parcial:** citou só métricas ou só pendências.<br>**❌ Falhou:** não inferiu informações úteis. | - [ ] Mencionou as métricas espontaneamente?<br>- [ ] Identificou os alertas de pendência?<br>- [ ] Ordem: 1º ___ 2º ___ 3º ___ |
 
 ---
 
-### TAREFA 3 · Ativar Ada Lovelace e Excluir Perfil (Inspiradoras | 6 min)
-**Contexto:** Teste do CRUD com pesos diferentes. Ativar é reversível; excluir exige confirmação de irreversibilidade.
-**Roteiro 1 (Ativar):** *"No painel, há o perfil da Ada Lovelace que está inativo. Encontre e publique ele para as alunas."*
-**Roteiro 2 (Excluir):** *"Agora remova permanentemente o perfil da Camila Santos (Oculta)."*
-**Caminho:** `TabBar Inspiram` → `Aba Inativas` → `Card Ada` → `Lápis (Editar)` → `Ativa Toggle` → `Salvar` ✅ → `Tela 35` → `Card Camila` → `Lixeira` → `Confirmar` ✅
+### TAREFA 3 · Publicar a Ada Lovelace e excluir a Camila Santos (Inspiradoras | 6 min)
+**Contexto:** gestão de conteúdo com pesos diferentes. Publicar é reversível; excluir exige confirmação.
+**Roteiro 1:** *"Há um perfil da Ada Lovelace inativo. Encontre-o e publique para as alunas."*
+**Roteiro 2:** *"Agora remova permanentemente o perfil da Camila Santos."*
+**Caminho:** `Barra inferior: Inspiram` → `Inativas` → `Ada` → `Editar` → `Ativar publicação` → `Salvar` ✅ → `Lista` → `Campos da Camila` → `Lixeira` → `Confirmar` ✅
 
-| Critério de Sucesso | O que Observar e Anotar |
+| Critério de sucesso | O que observar e anotar |
 | :--- | :--- |
-| **✅ Concluída:** Ativou Ada e excluiu Camila c/ alerta.<br>**⚠️ Parcial:** Fez só um dos dois fluxos.<br>**❌ Falhou:** Não achou a aba "Inativas". | - [ ] Achou a aba "Inativas" sem instrução?<br>- [ ] Entendeu o toggle "Publicar agora?"?<br>- [ ] Hesitou na lixeira? Leu o aviso? (___ seg) |
+| **✅ Concluída:** publicou a Ada e excluiu a Camila com a confirmação.<br>**⚠️ Parcial:** fez só um dos fluxos.<br>**❌ Falhou:** não achou os inativos. | - [ ] Achou a aba de inativas sem instrução?<br>- [ ] Entendeu a chave "Publicar agora?"<br>- [ ] Hesitou na lixeira? Leu o aviso? (___ s) |
 
 ---
 
-### TAREFA 4 · Cadastrar Evento como Rascunho (Eventos | 5 min)
-**Contexto:** Validação de segurança. Salvar sem publicar garante que o toggle default (desativado) protege a gestora.
-**Roteiro:** *"Cadastre uma roda de conversa sobre saúde mental como rascunho — sem publicar para as alunas ainda."*
-**Caminho:** `TabBar Eventos` → `FAB (+)` → `Criar Evento (Pré-preenchido)` → `Confirma Toggle Desativado` → `Salvar` → `Chip "Rascunho" na Lista` ✅
+### TAREFA 4 · Cadastrar evento como rascunho (Eventos | 5 min)
+**Contexto:** salvar sem publicar. A chave de publicação desativada protege a gestora.
+**Roteiro:** *"Cadastre uma roda de conversa sobre saúde mental como rascunho, sem publicar para as alunas ainda."*
+**Caminho:** `Barra inferior: Eventos` → `Botão (+)` → `Criar evento (preenchido)` → `Confirma publicação desativada` → `Salvar` → `Chip "Rascunho" na lista` ✅
 
-| Critério de Sucesso | O que Observar e Anotar |
+| Critério de sucesso | O que observar e anotar |
 | :--- | :--- |
-| **✅ Concluída:** Cadastrou com toggle off (Rascunho).<br>**⚠️ Parcial:** Cadastrou mas publicou (ativou toggle).<br>**❌ Falhou:** Não achou o FAB (+) para criar. | - [ ] Achou o FAB (+) sozinho?<br>- [ ] Verificou o toggle antes de salvar?<br>- [ ] Viu o chip "Rascunho" aparecer na lista? |
+| **✅ Concluída:** cadastrou como rascunho.<br>**⚠️ Parcial:** cadastrou, mas publicou.<br>**❌ Falhou:** não achou o botão (+). | - [ ] Achou o botão (+) sozinha?<br>- [ ] Verificou a chave antes de salvar?<br>- [ ] Viu o chip "Rascunho" na lista? |
 
 ---
 
-### TAREFA 5 · Moderação Ética: Excluir e Ignorar (Moderação | 6 min)
-**Contexto:** Maior peso ético do teste. Exige leitura de dossiê para tomar decisões opostas (ataque vs desabafo).
-**Roteiro 1:** *"No painel, há dois posts denunciados. Avalie e tome a decisão no que aguarda há mais tempo (Tamires)."*
-**Roteiro 2:** *"Ainda há outro post. Verifique-o (Anônima)."*
-**Caminho:** `TabBar Moderação` → `Card Tamires (Detalhes)` → `Lê` → `Excluir Postagem (Vermelho)` → `Confirmar` ✅ → `Volta` → `Card Anônima (Detalhes)` → `Lê` → `Ignorar Denúncia (Âmbar)` → `Confirmar` ✅
+### TAREFA 5 · Moderação: excluir e ignorar (Moderação | 6 min)
+**Contexto:** maior peso ético do teste. Exige leitura do contexto para decisões opostas (ataque a uma professora e desabafo).
+**Roteiro 1:** *"Há dois posts denunciados. Avalie e decida sobre o que aguarda há mais tempo (Tamires)."*
+**Roteiro 2:** *"Ainda há outro post. Verifique-o (Usuária Anônima)."*
+**Caminho:** `Barra inferior: Moderação` → `Tamires (detalhes)` → leitura → `Excluir postagem (vermelho)` → `Confirmar` ✅ → `Voltar` → `Usuária Anônima (detalhes)` → leitura → `Ignorar denúncia` ✅
 
-| Critério de Sucesso | O que Observar e Anotar |
+| Critério de sucesso | O que observar e anotar |
 | :--- | :--- |
-| **✅ Concluída:** Leu Detalhes e tomou decisões corretas.<br>**⚠️ Parcial:** Agiu direto da lista (sem ler contexto).<br>**❌ Falhou:** Não achou o painel de moderação. | - [ ] Abriu os Detalhes ou agiu direto da lista?<br>- [ ] Percebeu a diferença de contexto ético?<br>- [ ] Notou a cor (Vermelho x Âmbar) dos botões? |
+| **✅ Concluída:** leu os detalhes e decidiu.<br>**⚠️ Parcial:** agiu direto da lista, sem ler o contexto.<br>**❌ Falhou:** não achou a moderação. | - [ ] Abriu os detalhes ou agiu direto da lista?<br>- [ ] Percebeu a diferença de contexto entre os posts?<br>- [ ] Notou as cores dos botões? |
 
 ---
 
-### TAREFA 6 · Sanções: Enviar Aviso e Suspender (Usuárias | 5 min)
-**Contexto:** Escalada de sanções (progressividade). Aviso é brando; suspensão é grave e tem feedback visual imedito.
-**Roteiro 1 (Aviso):** *"A Thamires teve comportamento inadequado 1 vez. Envie um aviso educativo para o perfil dela."*
-**Roteiro 2 (Suspender):** *"Agora vamos suspender a Beatriz Lopes, que possui histórico grave. Encontre e suspenda."*
-**Caminho:** `TabBar Usuárias` → `Card Thamires (Detalhes)` → `Enviar Aviso (Outline)` → `Confirmar` ✅ → `Voltar` → `Card Beatriz (Detalhes)` → `Suspender Acesso (Vermelho)` → `Confirmar` → `Tag muda p/ Suspensa` ✅
+### TAREFA 6 · Aviso e suspensão (Usuárias | 5 min)
+**Contexto:** sanções progressivas. O aviso é brando; a suspensão é grave e tem retorno visual imediato.
+**Roteiro 1 (aviso):** *"A Tamires teve comportamento inadequado pela primeira vez. Envie um aviso educativo ao perfil dela."*
+**Roteiro 2 (suspensão):** *"Agora vamos suspender o acesso da Bárbara Lopes, que tem histórico grave. Encontre o perfil e tome a decisão."*
+**Caminho:** `Barra inferior: Usuárias` → `Tamires (detalhes)` → `Enviar aviso` → `Confirmar` ✅ → `Voltar` → `Bárbara Lopes (detalhes)` → `Suspender acesso (vermelho)` → `Confirmar` → `Etiqueta muda para "Suspensa"` ✅
 
-| Critério de Sucesso | O que Observar e Anotar |
+| Critério de sucesso | O que observar e anotar |
 | :--- | :--- |
-| **✅ Concluída:** Enviou aviso e suspendeu com sucesso.<br>**⚠️ Parcial:** Concluiu apenas uma das sanções.<br>**❌ Falhou:** Não executou as ações. | - [ ] Identificou os status visuais na lista?<br>- [ ] Leu o dossiê antes de punir?<br>- [ ] Notou a tag de status ficar vermelha? |
+| **✅ Concluída:** enviou o aviso e suspendeu.<br>**⚠️ Parcial:** concluiu só uma das sanções.<br>**❌ Falhou:** não executou as ações. | - [ ] Identificou os status na lista?<br>- [ ] Leu o histórico de conduta antes de decidir?<br>- [ ] Notou a etiqueta ficar vermelha? |
 
 ---
 
-### TAREFA 7 · Retorno e Logout (Dashboard | 3 min)
-**Contexto:** Encerramento via ícone global no header, testando navegabilidade cruzada.
-**Roteiro:** *"Você resolveu todas as pendências! Retorne ao painel geral (Dashboard) e encerre a sua sessão de forma segura."*
-**Caminho:** `Volta ao Dashboard (Via TabBar)` → `Toca no ícone Sign-Out (Header)` → `Tela 01 Login` ✅
+### TAREFA 7 · Retorno ao Dashboard e logout (Dashboard | 3 min)
+**Contexto:** encerramento pelo ícone de sair do cabeçalho; testa a navegação entre áreas.
+**Roteiro:** *"Você resolveu todas as pendências. Retorne ao painel geral (Dashboard) e encerre a sua sessão de forma segura."*
+**Caminho:** `Barra inferior: Dashboard` → `Ícone de sair (cabeçalho)` → `Login` ✅
 
-| Critério de Sucesso | O que Observar e Anotar |
+| Critério de sucesso | O que observar e anotar |
 | :--- | :--- |
-| **✅ Concluída:** Voltou à home e achou ícone de sair.<br>**⚠️ Parcial:** Precisou de dica para o ícone.<br>**❌ Falhou:** Não conseguiu encerrar a sessão. | - [ ] Usou a TabBar para voltar rápido?<br>- [ ] Achou o ícone de logout de primeira?<br>- [ ] Hesitou antes de sair? |
+| **✅ Concluída:** voltou ao Dashboard e achou o ícone de sair.<br>**⚠️ Parcial:** precisou de dica para o ícone.<br>**❌ Falhou:** não encerrou a sessão. | - [ ] Usou a barra inferior para voltar?<br>- [ ] Achou o ícone de sair de primeira?<br>- [ ] Hesitou antes de sair? |
 
 ---
 
-### EXTRA · Exploração Livre pós-Logout (2 a 3 min)
-**Contexto:** Validação de desejos e necessidades da gestora (Feature Request implícito).
-**Roteiro:** *"Teste finalizado! Vou te dar 2 minutinhos na tela de login. Entre e explore livremente, só pense alto."*
+### EXTRA · Exploração livre (2 a 3 min)
+**Roteiro:** *"O teste oficial acabou. Vou te dar alguns minutos para explorar o painel livremente, só continue pensando alto."*
 
-* **O que registrar:**
-  - 1º Módulo visitado: _____________ | 2º Módulo: _____________ | 3º Módulo: _____________
-  - *Comentou sobre algo que faltaria no painel administrativo? Alguma frustração?*
+- **O que registrar:** 
+  - 1º, 2º e 3º módulo visitado.
+  - Algo que faltaria no painel.
+  - Frustrações.

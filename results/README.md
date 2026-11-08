@@ -1,21 +1,21 @@
-# Resultados da Avaliação de Usabilidade (Rede Delas)
+# 📊 Resultados da Avaliação de Usabilidade (Rede Delas)
 
-Este diretório consolida os artefatos de Interação Humano-Computador (IHC), dados brutos e scripts de análise gerados durante a validação de usabilidade do projeto Rede Delas. Os testes englobaram 6 participantes cobrindo os três perfis da aplicação: Mentorandas, Mentoras e Gestão.
+Este diretório reúne os dados anonimizados, as figuras e os scripts da avaliação de usabilidade do protótipo Rede Delas (v1.0). Participaram seis pessoas (P1 a P6), duas por perfil: mentoranda, mentora e gestão. A interpretação analítica destes resultados compõe os Capítulos 5 e 6 do TCC 2.
 
 ## 📂 Estrutura do Diretório
 
+```text
 results/
 ├── data/
-│   ├── planilha_sus.csv
-│   └── planilha_think_aloud.csv
+│   └── Planilhas_Avaliacao_RedeDelas.xlsx
 ├── figures/
-│   ├── diagrama_afinidades.png
 │   ├── grafico_sus_individual.png
+│   ├── grafico_sus_itens_barras.png
 │   ├── grafico_sus_radar.png
-│   ├── jornada_gestao.png
-│   ├── jornada_mentora.png
+│   ├── diagrama_afinidades.png
 │   ├── jornada_mentoranda.png
-│   ├── nuvem_palavras.png
+│   ├── jornada_mentora.png
+│   ├── jornada_gestao.png
 │   └── roadmap.png
 ├── scripts/
 │   └── gerar_graficos_tcc.py

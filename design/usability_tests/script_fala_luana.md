@@ -19,8 +19,8 @@
 > Outro aviso importante: o que você vai usar é um **Protótipo Visual**. Ele não tem banco de dados, então você não vai precisar digitar nada — os textos já estarão preenchidos. Se algum caminho não sair como esperado, a gente se ajeita. A ideia é avaliar a usabilidade e os caminhos que você escolhe. Entendido?"
 
 ### 4. Aquecimento (2 min)
+*(Previsto no roteiro; não aplicado nas sessões, pois as participantes compreenderam a técnica na explicação inicial.)*
 > "Só para a gente treinar esse 'pensar alto', faz um favor: pega o seu celular, abre algum aplicativo que você usa muito (como o Instagram ou WhatsApp), escolhe um objetivo rápido e vai me contando o que você está fazendo e pensando até chegar lá."
-*(Aguarde ela fazer o exercício rápido)*
 
 ---
 
